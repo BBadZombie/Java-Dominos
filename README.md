@@ -12,3 +12,4 @@ UPDATED drawDomino() method to now drawAllDominos() where as you may guess it no
 ADDED doTheThing() method which just calls for the dominoCreate() and drawAllDominos() methods so I don't have to do it separately
 Still need to make my own canvas class...
 Just remembered need to make sure all classes start with a capital letter, will do that
+Need to either enlarge the dominoBoard() so it can fit all the dominos or modify drawAllDominos to account for the size of the canvas and the yPosition of the dominos
