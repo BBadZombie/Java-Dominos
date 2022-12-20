@@ -73,12 +73,12 @@ public class drawDomino
      */
     public void dominoCreate(){
         for (int i = 0; i <= 6; i++){
-            //Just to check domino groups, not actually necessary
-            //System.out.println("Group " + i);
+            // For debugging purposes; not actually necessary
+            // System.out.println("Group " + i);
             for (int j = i; j <= 6; j++){
                 dominosList.add(new domino(i, j));
-                //Just to check, not actually necessary
-                //System.out.println(" Domino" + ":" + j);
+                // For debugging purposes; not actually necessary
+                // System.out.println(" Domino" + ":" + j);
             }
         }
     }
@@ -86,13 +86,20 @@ public class drawDomino
     public void drawAllDominos() {
         Canvas dominoBoard = Canvas.getCanvas();
         int counter = 0;
-        for (domino dominoObject : dominosList) {
-            dominoBoard.draw(counter, color, new Rectangle(xPosition, yPosition, height, width));
-            // Update the xPosition for the next rectangle
-            xPosition = xPosition + 100;
+        for (domino oDomino : dominosList) {
+            xPosition = 100 + (oDomino.secondSide * 125);
+            yPosition = 100 + (oDomino.mainSide * 125);
+            
+            String mainSide = Integer.toString(oDomino.mainSide);
+            
+            dominoBoard.draw(counter, color, new Rectangle(
+                xPosition, yPosition, height, width));
+            dominoBoard.drawString(mainSide,xPosition-25,yPosition);
+            // Test
+            
             counter++;
-            System.out.println("Drawing rectangle for domino object: " + dominoObject.mainSide + ", " + dominoObject.secondSide);
-            System.out.println("xPosition before update: " + xPosition);
+            System.out.format("Drew domino object: %d, %d at %d,%d\n",
+                oDomino.mainSide,oDomino.secondSide,xPosition,yPosition);
         }
     }
     
