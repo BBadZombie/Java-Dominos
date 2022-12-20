@@ -131,6 +131,23 @@ public class Canvas
         graphic.fill(new Rectangle(0, 0, size.width, size.height));
         graphic.setColor(original);
     }
+    
+    /**
+     * Draws a String on the Canvas.
+     * @param  text   the String to be displayed 
+     * @param  x      x co-ordinate for text placement 
+     * @param  y      y co-ordinate for text placement
+     */
+    public void drawString(String text, int x, int y)
+    {
+        graphic.drawString(text, x, y);   
+        canvas.repaint();
+    }
+    
+    public void setForegroundColor(Color newColor)
+    {
+        graphic.setColor(newColor);
+    }
 
     /************************************************************************
      * Inner class CanvasPane - the actual canvas component contained in the
