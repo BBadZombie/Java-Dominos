@@ -1,0 +1,19 @@
+#BlueJ class context
+comment0.target=drawDomino
+comment0.text=\r\n\ Write\ a\ description\ of\ class\ Rectangle\ here.\r\n\r\n\ @author\ (Anthony\ Lopez)\r\n\ @version0\ (12.01.22)\r\n\ @version1\ (12.03.22)\r\n\ notes\ -\ \r\n\ -\ need\ to\ find\ out\ how\ to\ put\ circles\ on\ rectangles\ to\ indicate\ numbers,\ or\ just\ use\ regular\ drawn\ on\ numbers\r\n\ -\ how\ to\ make\ multiple\ dominos\ (for\ loop\ that\ repeats\ for\ the\ amount\ of\ dominos\ created\ by\ dominoSetLoop)\r\n\ \r\n\ Added\ mainSide\ and\ secondSide\ variables\ to\ be\ assigned\ by\ -\ \r\n\ dominoSetLoop()\ class\ and\ obtained\ from\ domino()\ class.\r\n\ @version2\ (12.19.22)\r\n\ notes\ -\ \r\n\ -\ still\ need\ to\ find\ out\ how\ to\ represent\ numbers\ on\ each\ of\ the\ dominos\r\n\ \r\n
+comment1.params=
+comment1.target=drawDomino()
+comment1.text=\r\n\ Constructor\ for\ objects\ of\ class\ drawDomino\r\n
+comment2.params=
+comment2.target=void\ dominoAsk()
+comment2.text=\r\n\ Method\ to\ ask\ if\ the\ user\ wants\ to\ play\ dominos\r\n
+comment3.params=
+comment3.target=void\ dominoCreate()
+comment3.text=\r\n\ Nested\ for\ loop\ that\ creates\ 28\ domino\ objects\r\n\ i\ represents\ the\ number\ of\ the\ main\ side\ number\r\n\ j\ represents\ the\ number\ of\ the\ second\ side\ number\r\n
+comment4.params=
+comment4.target=void\ drawAllDominos()
+comment5.params=
+comment5.target=void\ doTheThing()
+comment6.params=
+comment6.target=void\ getSides()
+numComments=7
