@@ -1,6 +1,6 @@
 # Java-Dominos
 Dominos board game written in Java
-NOTE - Much more work has been done before these dates, it's just that I started gitHub a while after this project, so a lot of notes are located within the code itself and not the readMe (lmaoooooo)
+NOTE - Much more work has been done before these dates, it's just that I started gitHub a while after this project, so a lot of notes are located within the code itself and not the readMe 
 
 Notes for 12.17.22 - 
 Need to create a for loop that creates the dominos using the stored information from the dominoSetLoop class
