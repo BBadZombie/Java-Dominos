@@ -1,0 +1,19 @@
+#BlueJ class context
+comment0.target=DrawDominoV2
+comment0.text=\r\n\ @author\ Anthony\ Lopez\r\n\ @version0\ 4.10.23\ \r\n\ \r\n\ Notes\:\r\n\ \ -\ Made\ this\ class\ to\ try\ and\ use\ the\ CanvasTest\ class\r\n\ \ -\ Also\ took\ the\ chance\ to\ remove\ comments\ to\ see\ how\ it\ looked\r\n\ \ \r\n\ @version1\ 4.14.23\r\n\ Notes\:\r\n\ \ -\ Removed\ dominoAsk\ method\ in\ favor\ of\ having\ a\ main\ method\r\n\ \ -\ Removed\ instantiation\ of\ Scanner\ in\ constructor\ and\ put\ it\ into\ main\ method\r\n\ \ -\ Added\ static\ keyword\ to\ mostly\ everything\ since\ that\ is\ required\ of\ a\ main\ method\r\n\ \ -\ Declared\ and\ instantiated\ Scanner\ in\ dominoAsk\ because\ no\ other\ methods\ used\ it\r\n\ \ -\ Converted\ 'side'\ fields\ to\ bytes\ from\ ints\ because\ no\ numbers\ higher\ than\ 6\ will\ be\ stored\r\n\ \ -\ Removed\ drawAllDominos\ method\ because\ it\ was\ no\ longer\ needed\ for\ reference\r\n
+comment1.params=args
+comment1.target=void\ main(java.lang.String[])
+comment1.text=\r\n\ Main\ method\ for\ class\ DrawDominoV2\r\n\ Notes\:\r\n\ \ -\ When\ a\ static\ method\ is\ called\ (like\ the\ main\ method)\ the\ instance\ fields\r\n\ \ \ \ aren't\ initialized.\ This\ needs\ to\ be\ done\ in\ the\ main\ method\r\n\ \ \ \ or\ other\ static\ methods\r\n
+comment2.params=
+comment2.target=void\ dominoAsk()
+comment2.text=\r\n\ Method\ to\ ask\ if\ the\ user\ wants\ to\ play\ dominos\r\n\ Changes\ made\ 4.14.23\:\r\n\ \ -\ Switched\ to\ private\ modifier\ from\ public\r\n
+comment3.params=
+comment3.target=void\ dominoCreate()
+comment3.text=\r\n\ Nested\ for\ loop\ that\ creates\ 28\ domino\ objects\r\n\ i\ represents\ the\ number\ of\ the\ main\ side\ number\r\n\ j\ represents\ the\ number\ of\ the\ second\ side\ number\r\n
+comment4.params=
+comment4.target=void\ drawAllDominosV2()
+comment4.text=\r\n\ Method\ that\ draws\ out\ all\ the\ dominos\ on\ a\ canvas.\r\n\ Separates\ dominos\ by\ adding\ 100\ to\ x\ for\ every\ domino\r\n
+comment5.params=
+comment5.target=void\ getSides()
+comment5.text=\r\n\ Changed\ the\ comma\ within\ the\ quotations\ into\ a\ colon\r\n
+numComments=6

@@ -1,0 +1,19 @@
+#BlueJ class context
+comment0.target=DrawDomino
+comment0.text=\r\n\ @author\ (Anthony\ Lopez)\r\n\ @version0\ (12.01.22)\r\n\ @version1\ (12.03.22)\r\n\ Notes\:\r\n\ \ -\ need\ to\ find\ out\ how\ to\ put\ circles\ on\ rectangles\ to\ indicate\ numbers,\ or\ just\ use\ regular\ drawn\ on\ numbers\r\n\ \ -\ how\ to\ make\ multiple\ dominos\ (for\ loop\ that\ repeats\ for\ the\ amount\ of\ dominos\ created\ by\ dominoSetLoop)\r\n\ \r\n\ Added\ mainSide\ and\ secondSide\ variables\ to\ be\ assigned\ by\ -\ \r\n\ dominoSetLoop()\ class\ and\ obtained\ from\ domino()\ class.\r\n\ @version2\ (12.19.22)\r\n\ Notes\:\r\n\ \ -\ still\ need\ to\ find\ out\ how\ to\ represent\ numbers\ on\ each\ of\ the\ dominos\r\n\ \r\n\ @version3\ (4.7.23)\r\n\ Notes\:\r\n\ \ -\ Removed\ doTheThing()\ method,\ it\ was\ pretty\ useless\r\n\ \ -\ Removed\ size\ variable,\ didn't\ do\ anything\ for\ the\ program\r\n\ \r\n
+comment1.params=
+comment1.target=DrawDomino()
+comment1.text=\r\n\ Constructor\ for\ objects\ of\ class\ drawDomino\r\n
+comment2.params=
+comment2.target=void\ dominoAsk()
+comment2.text=\r\n\ Method\ to\ ask\ if\ the\ user\ wants\ to\ play\ dominos\r\n\ Changes\ made\ 4.7.23\:\r\n\ -\ replaced\ Yes\ ||\ yes\ statement\ with\ .equalsIgnoreCase()\ method\r\n\ \r\n\ Changes\ made\ 4.10.23\:\r\n\ -\ Added\ else\ statement\ if\ different\ input\ is\ received\r\n\ -\ Instead\ of\ assigning\ field\ answer\ to\ ""\ now\ it's\ just\ instantiated\r\n
+comment3.params=
+comment3.target=void\ dominoCreate()
+comment3.text=\r\n\ Nested\ for\ loop\ that\ creates\ 28\ domino\ objects\r\n\ i\ represents\ the\ number\ of\ the\ main\ side\ number\r\n\ j\ represents\ the\ number\ of\ the\ second\ side\ number\r\n
+comment4.params=
+comment4.target=void\ drawAllDominos()
+comment4.text=\r\n\ Method\ that\ draws\ out\ all\ the\ dominos\ on\ a\ canvas.\r\n\ Separates\ dominos\ by\ adding\ 100\ to\ x\ for\ every\ domino\r\n\ Need\ to\ implement\ way\ to\ start\ placing\ dominos\ on\ different\ line\r\n\ Commented\ out\ printlns\ for\ now\r\n\ Changes\ made\ 4.10.23\ -\ \r\n\ \ -\ made\ it\ so\ dominos\ would\ start\ printing\ on\ separate\ line\ after\ 1000\ units\r\n\ \ -\ removed\ comments\ after\ if\ statement\r\n
+comment5.params=
+comment5.target=void\ getSides()
+comment5.text=\r\n\ Changed\ the\ comma\ within\ the\ quotations\ into\ a\ colon\r\n
+numComments=6
