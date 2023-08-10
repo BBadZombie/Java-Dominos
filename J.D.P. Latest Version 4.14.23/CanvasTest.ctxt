@@ -1,9 +1,0 @@
-#BlueJ class context
-comment0.target=CanvasTest
-comment0.text=\r\n\ Trying\ to\ create\ my\ own\ canvas\ class\ \r\n\ \r\n\ @author\ Anthony\ Lopez\r\n\ @version0\ 4.10.23\r\n\ \r\n\ The\ 'extends'\ keyword\ adds\ extra\ functionaltiy\ to\ the\ JPanel\ class\r\n
-comment1.params=header
-comment1.target=CanvasTest(java.lang.String)
-comment1.text=\r\n\ Method\ that\ creates\ a\ JFrame,\ adds\ the\ instance\ of\ \r\n\ \ CanvasTest\ to\ it,\ sets\ the\ size\ and\ sets\ the\ visibility\r\n
-comment2.params=g\ x\ y\ width\ height
-comment2.target=void\ drawRectangle(java.awt.Graphics,\ int,\ int,\ int,\ int)
-numComments=3
